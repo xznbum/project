@@ -22,3 +22,8 @@ if (isset($array) && is_array($array) && !(empty($array))){
     header('Content-Type: text/plain');
     echo "Ошибка. Не получен массив.";
 }
+
+/* для использования curl через cmd (Windows):
+ * curl "http://localhost:8000/two.php" -X POST -H "Content-Type: application/json" 
+ * --data-binary "[\"hello\", \"racecar\", \"Level\", \"lol\", \"xsolla\"]" 
+ */
