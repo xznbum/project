@@ -1,0 +1,9 @@
+{
+    "name": "xsollas/summer-school",
+    "require-dev": {
+        "phpunit/phpunit": "5.4.*"
+    },
+    "autoload": {
+        "psr-4": {"SummerSchool\\": "src/"}
+    }
+}
